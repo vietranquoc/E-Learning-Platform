@@ -1,0 +1,19 @@
+# Bỏ qua thư mục Visual Studio
+.vs/
+*.user
+*.suo
+*.cache
+*.pdb
+
+# Bỏ qua thư mục build
+bin/
+obj/
+TestResults/
+
+# Bỏ qua file log, config nhạy cảm
+appsettings.json
+appsettings.Development.json
+*.log
+
+# Bỏ qua thư mục của Entity Framework Migrations
+Migrations/
