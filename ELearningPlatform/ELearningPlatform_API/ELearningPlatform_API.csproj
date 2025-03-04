@@ -24,7 +24,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ELearningPlatform_Authentication\ELearningPlatform_Authentication.csproj" />
     <ProjectReference Include="..\ELearningPlatform_Data\ELearningPlatform_Data.csproj" />
+    <ProjectReference Include="..\ELearningPlatform_Domain\ELearningPlatform_Domain.csproj" />
     <ProjectReference Include="..\ELearningPlatform_Entity\ELearningPlatform_Entity.csproj" />
   </ItemGroup>
 
